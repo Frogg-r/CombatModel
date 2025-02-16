@@ -1,6 +1,5 @@
 #include "Entity.h"
 
-
 Entity::Entity() {
 	name = "New Entity";
 
@@ -35,8 +34,8 @@ void Entity::showEntityInfo() {
 		<< getStat(EntityStat::CurrentHealth) << "/" << getStat(EntityStat::MaximumHealth) << " HP \n"
 		<< getStat(EntityStat::PhysicalDefense) << " Physical Defense \n"
 		<< getStat(EntityStat::MagicalDefense) << " Magical Defense \n"
-		<< getStat(EntityStat::PhysicalDamage) << " Physical Damage \n"
-		<< getStat(EntityStat::MagicalDamage) << " Magical Damage \n" << std::endl;
+		<< getStat(EntityStat::PhysicalDamageModifier) << " Physical Damage \n"
+		<< getStat(EntityStat::MagicDamageModifier) << " Magical Damage \n" << std::endl;
 
 }
 

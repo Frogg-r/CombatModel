@@ -10,8 +10,8 @@ enum class EntityStat {
 	CurrentHealth,
 	PhysicalDefense,
 	MagicalDefense,
-	PhysicalDamage,
-	MagicalDamage
+	PhysicalDamageModifier,
+	MagicDamageModifier
 };
 
 class EntityStats {
